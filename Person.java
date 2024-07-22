@@ -2,10 +2,10 @@ public class Person{
   // Take 4 Variables and Initialize them
   // Create Getters and Setters
   // Create Constructors
-  public int age=22;
-  public String dept="ece";
-  private int id=123;
-  private String name="syam";
+  public int age;
+  public String dept;
+  private int id;
+  private String name;
   public int getAge() {
     return age;
   }
