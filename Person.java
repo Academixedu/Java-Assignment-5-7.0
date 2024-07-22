@@ -1,8 +1,8 @@
 public class Person{
-  public int sid=1;
-  private String sname="sri";
-  private int sroll=194;
-  public String sdept="ece";
+  public int sid;
+  private String sname;
+  private int sroll;
+  public String sdept;
   public Person(int sid,String sname,int sroll,String sdept){
     this.sid=sid;
     this.sname=sname;
