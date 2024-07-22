@@ -8,7 +8,7 @@ public class Loops {
 
     public void whileLoop() {
         System.out.println("While loop example:");
-        int j = 1
+        int j = 1;
         while (j <= 5) {
             System.out.println("Number: " + j);
             j++;
