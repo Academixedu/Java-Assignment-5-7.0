@@ -35,7 +35,7 @@ public void setAddress(String addr) {
   address = addr;
 }
 public static void main(String[] args) {
-Person person = new Person("Bipasa", 22, "Hyderabad");
+Person person = new Person("Chinmay", 18, "Hyderabad");
 
         System.out.println("Person: " + person.getmyName()  );
          System.out.println("Age: " + person.getAge() );

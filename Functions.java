@@ -18,6 +18,6 @@ public class Functions{
   Functions f=new Functions();
   f.pExample();
   f.pExample("Good msg");
-  int d=f.pExample(100 , 10);// Call three Functions here
+  int div=f.pExample(100 , 10);// Call three Functions here
   }
 }

@@ -2,7 +2,8 @@ import java.util.Scanner;
 public class Main{
 
     // Void function
-    public void mFunction() {
+    public void mFunction()
+     {
         System.out.println("Void function called");
     }
     // Function with parameters and return type

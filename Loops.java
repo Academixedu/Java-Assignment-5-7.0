@@ -1,7 +1,8 @@
 public class Loops{
 public void ForloopExample()
 {
-   for(int i=1;i<10;i++)
+    int i;
+   for(i=1;i<10;i++)
    {
     System.out.println(i);
    } // Prepare a For Loop and While  in each Function
