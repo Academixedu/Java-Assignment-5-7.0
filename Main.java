@@ -1,26 +1,24 @@
 import java.util.Scanner;
-public class ScannerExample {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter an integer: ");
-        int integerInput = sc.nextInt();
-        System.out.println("Entered integer: " + integerInput);
+public class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter first name: ");
+    String firstName = sc.nextLine();
 
-        System.out.print("Enter a float number: ");
-        float floatInput = sc.nextFloat();
-        System.out.println("Entered float: " + floatInput);
-      
-        System.out.print("Enter a double number: ");
-        double doubleInput = sc.nextDouble();
-        System.out.println("Entered double: " + doubleInput);
+    System.out.print("Enter last name: ");
+    String lastName = sc.nextLine();
 
-        sc.nextLine(); 
-        System.out.print("Enter a string: ");
-        String stringInput = sc.nextLine();
-        System.out.println("Entered string: " + stringInput);
+    System.out.print("Enter age: ");
+    int age = sc.nextInt();
+    scanner.nextLine();
 
-        System.out.print("Enter true or false: ");
-        boolean booleanInput = sc.nextBoolean();
-        System.out.println("Entered boolean: " + booleanInput);
-    }
+    System.out.print("Enter address: ");
+    String address = sc.nextLine();
+
+    Person person = new Person(firstName, lastName, age, address);
+    System.out.println("Person details:");
+    System.out.println("Name: " + person.getFirstName() + " " + person.getLastName());
+    System.out.println("Age: " + person.getAge());
+    System.out.println("Address: " + person.getAddress());
+  }
 }
