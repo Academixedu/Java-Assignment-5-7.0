@@ -1,3 +1,11 @@
-public class ParentClass{
-  // prepare a method Name with name as parameter and return it by using String return type
+public class ParentClass {
+    public String getName(String name) {
+        return name;
+    }
+  
+    public static void main(String[] args) {
+        ParentClass pc = new ParentClass();
+        String name = "Karthik";
+        System.out.println(" Name: " + pc.getName(name));
+    }
 }
